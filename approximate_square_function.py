@@ -65,7 +65,6 @@ x = np.random.uniform(low=-0.8, high=0.8, size=1000)
 x = np.reshape(x, (x.size, 1))
 x_input = torch.FloatTensor(x)
 
-
 result = []
 for x in x_input:
     print(x)
